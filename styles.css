@@ -1,0 +1,16 @@
+div {
+    border: 2px solid black;
+}
+
+.container {
+    display: flexbox;
+    flex: auto;
+    height: 1000px;
+}
+
+.row {
+    display: flexbox;
+    flex-direction: row;
+    flex: 1 0 auto;
+    height: 72px;
+}
