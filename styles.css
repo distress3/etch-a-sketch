@@ -1,16 +1,32 @@
 div {
-    border: 2px solid black;
+
 }
 
 .container {
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
     flex: auto;
-    height: 1000px;
+    justify-content: center;
+    align-items: center;
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    border: 0px solid black;
 }
 
 .row {
-    display: flexbox;
+    display: flex;
     flex-direction: row;
+    flex: auto;
+    /* height: 32px; */
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
     flex: 1 0 auto;
-    height: 72px;
+    height: 15px;
+    border: 1px solid black;
+    width: 15px;
 }
